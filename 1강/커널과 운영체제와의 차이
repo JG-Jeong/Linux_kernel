@@ -6,3 +6,14 @@
 2. 커널(알맹이 핵심)은 운영체제의 핵심 부분
 
 - 하드웨어와 소프트웨어를 이어주는 중계자
+
+?? 오잉? 전세계에 얼마나 많은 종류의 cpu에 linux가 깔려 있을텐데 똑같이 동작해?
+그거 해주는 애들이 아래 애들임
+
+1. Task(Process) Management : CPU를 추상적 자원인 Task로 제공
+2. Memory Management: 메모리를 추상적 자원인 Page, Segement 로 제공
+3. File System : 디스크를 추상적 자원인 File로 제공
+4. Network Management : 네트워크 장치를 추상적 자원인 Socket으로 제공
+5. Device Driver Management : 각종 외부 장치에 대한 접근
+6. Interrupt Handling : 인터럽트 핸들러
+7. I/O Communication : 입출력 통신 관리 (입출력 장치의 중개자)
